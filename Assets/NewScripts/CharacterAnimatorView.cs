@@ -27,10 +27,6 @@ namespace Movement
                 playerJumpController.OnJump += HandleJump;
                 playerJumpController.OnLand += CheckLand;
             }
-            else
-            {
-                Debug.Log("asdasdasd");
-            }
         }
 
         private void OnDisable()
