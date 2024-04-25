@@ -14277,7 +14277,7 @@ MonoBehaviour:
   body: {fileID: 1097084208}
   force: 10
   maxQty: 1
-  floorAngle: 0
+  floorAngle: 30
 --- !u!135 &1097084212
 SphereCollider:
   m_ObjectHideFlags: 0
