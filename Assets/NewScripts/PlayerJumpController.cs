@@ -32,9 +32,9 @@ public class PlayerJumpController : MonoBehaviour
     {
         ContactPoint contact = collision.contacts[0];
         float contactAngle = Vector3.Angle(contact.normal, Vector3.up);
-        if (contactAngle <= force)
-        {
             OnLand?.Invoke();
+        if (contactAngle <= floorAngle)
+        {
             currentJumpQty = 0;
         }
     }
